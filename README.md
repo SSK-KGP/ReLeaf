@@ -87,10 +87,10 @@ Each of the four blocks is designed to capture increasingly complex visual patte
 
 | Block | Layer Type | Filters | Kernel Size | Parameters |
 | :--- | :--- | :--- | :--- | :--- |
-| **Block 1** | Conv2D + BatchNorm | 32 | $3 \times 3$ | 864 |
-| **Block 2** | Conv2D + BatchNorm | 64 | $3 \times 3$ | 18,688 |
-| **Block 3** | Conv2D + BatchNorm | 128 | $3 \times 3$ | 74,240 |
-| **Block 4** | Conv2D + BatchNorm | 256 | $3 \times 3$ | 295,936 |
+| **Block 1** | Conv2D + BatchNorm | 32 | $3 \times 3$ | 928 |
+| **Block 2** | Conv2D + BatchNorm | 64 | $3 \times 3$ | 18,560 |
+| **Block 3** | Conv2D + BatchNorm | 128 | $3 \times 3$ | 73,984 |
+| **Block 4** | Conv2D + BatchNorm | 256 | $3 \times 3$ | 295,424 |
 
 *   **Downsampling**: Each block concludes with a **MaxPooling2D** layer to reduce spatial dimensions.
 *   **Regularization**: **Dropout** layers are integrated into every block to prevent overfitting by randomly deactivating neurons during training.
