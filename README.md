@@ -208,7 +208,7 @@ Model: "ReLeaf_Baseline_CNN"
 | global_average_pooling2d | (None, 256) | 0 |
 | (GlobalAveragePooling2D) | | |
 | dense (Dense) | (None, 256) | 65,536 |
-| batch_normalization_4 | (None, 256) | 1,024 |
+| batch_normalization_4 | (None, 256) | 512 Trainable and 512 Non Trainable |
 | (BatchNormalization) | | |
 | activation_4 (Activation) | (None, 256) | 0 |
 | dropout_4 (Dropout) | (None, 256) | 0 |
