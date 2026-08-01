@@ -182,25 +182,25 @@ Model: "ReLeaf_Baseline_CNN"
 | :--- | :--- | :--- |   
 | input_layer_1 (InputLayer) | (None, 224, 224, 3) | 0 |
 | conv2d (Conv2D) | (None, 222, 222, 32) | 864 |
-| batch_normalization | (None, 222, 222, 32) | 128 |
+| batch_normalization | (None, 222, 222, 32) | 64 Trainable and 64 Non Trainable |
 | (BatchNormalization) | | |
 | activation (Activation) | (None, 222, 222, 32) | 0 |
 | max_pooling2d (MaxPooling2D) | (None, 111, 111, 32) | 0 |
 | dropout (Dropout) | (None, 111, 111, 32)   | 0 |
 | conv2d_1 (Conv2D) | (None, 109, 109, 64)   | 18,432 |
-| batch_normalization_1 | (None, 109, 109, 64)   | 256 |
+| batch_normalization_1 | (None, 109, 109, 64)   | 128 Trainable and 128 Non Trainable |
 | (BatchNormalization) | | |
 | activation_1 (Activation) | (None, 109, 109, 64) | 0 |
 | max_pooling2d_1 (MaxPooling2D) | (None, 54, 54, 64) | 0 |
 | dropout_1 (Dropout) | (None, 54, 54, 64) | 0 |
 | conv2d_2 (Conv2D) | (None, 52, 52, 128) | 73,728 |
-| batch_normalization_2 | (None, 52, 52, 128) | 512 |
+| batch_normalization_2 | (None, 52, 52, 128) | 256 Trainable and 256 Non Trainable |
 | (BatchNormalization) | | |
 | activation_2 (Activation) | (None, 52, 52, 128) | 0 |
 | max_pooling2d_2 (MaxPooling2D) | (None, 26, 26, 128) | 0 |
 | dropout_2 (Dropout) | (None, 26, 26, 128) | 0 |
 | conv2d_3 (Conv2D) | (None, 24, 24, 256) | 294,912 |
-| batch_normalization_3 | (None, 24, 24, 256) | 1,024 |
+| batch_normalization_3 | (None, 24, 24, 256) | 512 Trainable and 512 Non Trainable |
 | (BatchNormalization) | | |
 | activation_3 (Activation) | (None, 24, 24, 256) | 0 |
 | max_pooling2d_3 (MaxPooling2D) | (None, 12, 12, 256) | 0 |
